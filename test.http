@@ -1,0 +1,14 @@
+POST http://localhost:3030/render
+Content-Type: application/json
+
+{
+   "template":"GRP.odt",
+   "data":{
+     "firstName":"test"
+   },
+   "options":{
+       "converTo":"pdf",
+       "outputName":"test.pdf",
+       "asDownload": false
+   }
+}
